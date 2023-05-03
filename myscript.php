@@ -32,6 +32,9 @@ $censored = str_replace($word, "***", $word);
                 <span>La tua parola è composta da <?php echo strlen($word);?> caratteri</span>
             </div>
 
+            <button class="btn btn-primary mt-5 align-self-center" style="width: 100px">
+                <a href="./index.php" class="text-light text-decoration-none">Riprova</a>
+            </button>
         </div>    
     </div>
 </body>
