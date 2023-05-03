@@ -11,27 +11,25 @@
 </head>
 <body>
 <div class="container d-flex justify-content-center my-4">
-    <div class="card rounded-0 shadow col-8">
-
-      <div class="card p-4">
+   
+    <div class="card rounded-0 shadow col-8 p-4">
         <form action="myscript.php" method="get">
-          <div class="mb-3">
+            <div class="mb-3">
                 <label for="name">Inserisci una frase</label>
                 <input type="text" name="name" id="name" class="form-control" placeholder="Inserisci qui la frase" aria-describedby="suffixId">
-          </div>
-          <div class="mb-3">
+            </div>
+            <div class="mb-3">
                 <label for="word">Inserisci una parola</label>
                 <input type="text" name="word" id="word" class="form-control" placeholder="Inserisci qui la parola" aria-describedby="suffixId">
-          </div>
-        
+            </div>
+                
 
-          <button type="submit" class="btn btn-primary">Submit</button>
-        
+            <button type="submit" class="btn btn-primary">Submit</button>
+            
         </form>
-      </div>
-
-
     </div>
+    
+
 </div>
 
 </body>
