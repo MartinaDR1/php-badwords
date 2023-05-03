@@ -19,7 +19,7 @@
                 <input type="text" name="name" id="name" class="form-control" placeholder="Inserisci qui la frase" aria-describedby="suffixId">
             </div>
             <div class="mb-3">
-                <label for="word">Inserisci una parola</label>
+                <label for="word">Inserisci la parola da censurare</label>
                 <input type="text" name="word" id="word" class="form-control" placeholder="Inserisci qui la parola" aria-describedby="suffixId">
             </div>
                 

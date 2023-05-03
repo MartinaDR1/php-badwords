@@ -2,7 +2,7 @@
 
 $name = ($_GET["name"]);
 $word = ($_GET["word"]);
-$censored = str_replace($word, "***", $word);
+$censored = str_replace($word, "***", $name);
 ?>
 
 
@@ -28,8 +28,8 @@ $censored = str_replace($word, "***", $word);
             </div>
 
             <div class="mb-3">
-                <h6>La parola che hai inserito è : <?php echo $censored ?> </h6>
-                <span>La tua parola è composta da <?php echo strlen($word);?> caratteri</span>
+                <h6>Il paragrafo con la parola censurata è : <?php echo $censored ?> </h6>
+                <span>La tua parola è composta da <?php echo strlen($censored);?> caratteri</span>
             </div>
 
             <button class="btn btn-primary mt-5 align-self-center" style="width: 100px">
